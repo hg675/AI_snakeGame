@@ -17,7 +17,7 @@ clock = pygame.time.Clock()
 
 # Define the Snake class
 class Snake:
-    def _init_(self):
+    def __init__(self):
         # Initialize the snake with length 1, starting position in the middle of the grid, and a random initial direction
         self.length = 1
         self.positions = [((GRID_SIZE // 2), (GRID_SIZE // 2))]
